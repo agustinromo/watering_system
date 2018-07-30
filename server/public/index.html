@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+     <title>domoticavanzada.com</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <style>
+  .btn {
+    width: 201px;
+    padding: 16px 33px;
+    align-items: center;
+  }
+   <style media="screen">
+  body
+    {
+      font-family: Comic;
+      height:100%;
+    }
+    </style>
+  </head>
+  <body background="circuito2.jpg">
+    <div class="container theme-showcase" role="main">
+        <h1 align="center"><i>Domótica Avanzada</i> </h1>
+      <figure class="logotipo"> <!-- logotipo -->
+         <img src="/riego.jpg" align="right" srcset="/riego.jpg 1x" width="250" height="120" alt="sistemariego1 logotipo"/>
+      </figure>
+      <figure class="foto"> <!-- logotipo -->
+         <img src="/yomeren.jpg" align="left" srcset="/yomeren.jpg 1x" width="150" height="100" alt="sistemariego2 foto"/>
+      </figure>
+      <script ="text/javascript" src="http://100widgets.com/js_data.php?id=106"></script>
+      <form>
+       <p>  <input value="Actualizar datos" onclick="history.go(0)" type="button">
+       </form>
+    <!--   <div class="col-md-3"> -->
+               <font face="Comic Sans MS,arial">
+                 <div class="jumbotron">
+               <p><strong>Parámetros: <card id="temp_humi"></card></p>
+               </div>
+               </font>
+    <!--     </div> -->
+        </div>
+   <script src="/socket.io/socket.io.js" charset="utf-8"></script>
+   <script src="/main.js"> charset="utf-8"></script>
+   </body>
+</html>
